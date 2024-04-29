@@ -13,7 +13,7 @@ Repositório destinado à matéria Engenharia de Software - BCC3004.
 #### [Violação: Código de Exemplo](https://github.com/guilhermefogacadev/BCC3004/blob/main/Single-Responsibility-Principle/Produto.java)
 
 
- A classe `Produto` viola a o SRP, pois o método `calcularImposto()` adiciona uma  nova responsabilidade , ou seja , mais um motivo para modificar a classe. A  [solução](Single-Responsibility-Principle/ProdutoCorreto.java)  se da com a implementação de uma `interface`, `Imposto`, que realiza o calculo separadamente.
+ A classe `Produto` viola a o SRP, pois o método `calcularImposto()` adiciona uma  nova responsabilidade , ou seja , mais um motivo para modificar a classe. A  [solução](https://github.com/guilhermefogacadev/BCC3004/blob/main/Single-Responsibility-Principle/ProdutoCorreto.java)  se da com a implementação de uma `interface`, `Imposto`, que realiza o calculo separadamente.
 
 #### [Solução: Código de Exemplo](https://github.com/guilhermefogacadev/BCC3004/blob/main/Single-Responsibility-Principle/ProdutoCorreto.java)
 
@@ -23,7 +23,7 @@ Repositório destinado à matéria Engenharia de Software - BCC3004.
 
 #### [Violação: Código de Exemplo](https://github.com/guilhermefogacadev/BCC3004/blob/main/Open-Close/AnimalErrado.java)
 
- A classe `Animal` viola Open Close, uma vez que cada animal realiza um som especifico. Deste modo, a classe seria alterada junto a seu método `fazerSom()` para cada novo animal. A  [solução](Open-Close/AnimalCorreto.java) é dada por uma `Abstract Class` e uma `Class` para cada `Animal`, por meio de `Herança`, assim cada classe realiza `Override`no método `fazerSom()`, resultando em sua devida sonoridade.
+ A classe `Animal` viola Open Close, uma vez que cada animal realiza um som especifico. Deste modo, a classe seria alterada junto a seu método `fazerSom()` para cada novo animal. A  [solução](https://github.com/guilhermefogacadev/BCC3004/blob/main/Open-Close/AnimalCorreto.java) é dada por uma `Abstract Class` e uma `Class` para cada `Animal`, por meio de `Herança`, assim cada classe realiza `Override`no método `fazerSom()`, resultando em sua devida sonoridade.
 
 #### [Solução: Código de Exemplo](https://github.com/guilhermefogacadev/BCC3004/blob/main/Open-Close/AnimalCorreto.java)
 
