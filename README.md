@@ -41,7 +41,7 @@ Repositório destinado à matéria Engenharia de Software - BCC3004.
 
 #### [ Violação: Código de Exemplo](https://github.com/guilhermefogacadev/BCC3004/blob/main/Interface-Segregation/ReprodutorDeMidiaErrado.java)
 
- A `interface` `ReprodutorDeMidia` viola o ISP , uma vez que implementa para `ReprodutorDeFilme` o método `assistirProximoEpisodio()`, porém não deveria ser possível essa ação. A  [solução](Interface-Segregation/ReprodutorDeSerieCorreto.java) apresenta uma nova `interface` com o método `assistirProximoEpisodio()` que herda de `ReprodutorDeMidia`. Respeitando assim o `ISP`. 
+ A `interface` `ReprodutorDeMidia` viola o ISP , uma vez que implementa para `ReprodutorDeFilme` o método `assistirProximoEpisodio()`, porém não deveria ser possível essa ação. A  [solução](https://github.com/guilhermefogacadev/BCC3004/blob/main/Interface-Segregation/ReprpdutorDeMidiaCorreto.java) apresenta uma nova `interface` com o método `assistirProximoEpisodio()` que herda de `ReprodutorDeMidia`. Respeitando assim o `ISP`. 
 
 
 #### [ Solução: Código de Exemplo](https://github.com/guilhermefogacadev/BCC3004/blob/main/Interface-Segregation/ReprpdutorDeMidiaCorreto.java)
